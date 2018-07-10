@@ -1,0 +1,30 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "quick little chat client using socketIO",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thephilwells/SocketChat.git"
+  },
+  "author": "Phil Wells",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thephilwells/SocketChat/issues"
+  },
+  "homepage": "https://thephilwells-socketchat.glitch.me/",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
