@@ -1,2 +1,2 @@
 # SocketChat
-Quickie CHat Room project using Socket IO
+Quickie Chat Room project using Socket IO
